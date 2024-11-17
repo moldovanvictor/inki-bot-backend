@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@trigger.dev/sdk": "3.2.0",
+    "axios": "^1.7.7",
+    "openai": "^4.71.1"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "3.2.0"
+  }
+}
