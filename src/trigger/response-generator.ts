@@ -20,7 +20,7 @@ export const responseGeneratorTask = task({
             messages: [
                 {
                     role: "system",
-                    content: "You are an internal assistant for INKI Tech Company, you will help employees do their job. You will be provided with the messages history, and a current message, please respond to the current message, but keep the context of previous messages."
+                    content: "You are an internal assistant for INKI Tech Company, your name is INKI Bot, you will help employees do their job. You will be provided with the messages history, and a current message, please respond to the current message, but keep the context of previous messages."
                 },
                 ...(validContext === null ? [{
                     role: "user",
